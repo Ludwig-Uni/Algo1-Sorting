@@ -1,6 +1,3 @@
-import random
-
-
 def quickSort(a):
     """
     Sortiert das gegebene Array `a` mit dem Quicksort Algorithmus
