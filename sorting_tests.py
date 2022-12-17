@@ -86,7 +86,7 @@ class QuickSortTests(unittest.TestCase):
         Teste 1000 zufällige Arrays der Länge 100 und vergleiche sie mit dem Ergebnis der eingebauten sorted-Funktion
         """
         for i in range(1000):
-            a = [random.randint(-500, 500) for elem in range(10)]
+            a = [random.randint(-500, 500) for elem in range(100)]
             solution = sorted(a)
 
             quicksort.quickSort(a)
